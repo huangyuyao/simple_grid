@@ -40,7 +40,7 @@ h1, h2 {
 
 
 
-  .grid-container {
+  .grid {
     width: 800px;
     margin: 0 auto;
     display: grid;
@@ -68,6 +68,13 @@ h1, h2 {
 
 
 
+.grid > div {
+	border: 5px solid white;
+	background-color: rgba(231, 157, 224, 0.5);
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+}
 
 
 
@@ -80,3 +87,25 @@ h1, h2 {
 
 /* Now try and style the individual boxes using grid-column  to match the picture at 1200px.*/
 
+.item2, .item5{
+	grid-column-start: 3;
+}
+
+.item3{
+	grid-column-start: 2;
+}
+
+.item4{
+	grid-column-start: 1;
+}
+
+
+.item_a{
+	grid-column-start: 3;
+	grid-row-start: 3;
+
+}
+.item_b{
+	grid-column-start: 3;
+
+}
