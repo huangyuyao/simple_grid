@@ -9,7 +9,11 @@
 
 
 
-
+h1, h2 {
+  text-align: center;
+  margin: 10px;
+  font-size: 2em; /* You can also use 200% if you prefer */
+}
 
 
 
@@ -36,10 +40,17 @@
 
 
 
-
-
-
-
+  .grid-container {
+    width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #91f321;
+    background-image: url("../images/background.jpg");
+    border: 3px solid black;
+    border-radius: 10px; 
+}
 
 
 
